@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/img4">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Wellcome Back!"
+            android:textSize="30dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="Enter Your Email Or Password" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginBottom="40dp"
+            android:ems="15"
+            android:background="@drawable/vien_edit"
+            android:hint="User Name"
+            android:id="@+id/edittextusername"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:ems="15"
+            android:hint="Password"
+            android:background="@drawable/vien_edit"
+            android:inputType="textPassword"
+            android:id="@+id/edittextpassword"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="20dp"
+            android:text="FORGOT PASSWORD?"
+            android:textColor="#000"
+            android:textSize="15dp" />-
+        <Button
+            android:layout_width="150dp"
+            android:id="@+id/login"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textSize="16dp" />
+
+
+        <Button
+            android:layout_width="150dp"
+            android:id="@+id/thoat"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/gg"
+        android:layout_marginTop="730dp"
+        android:layout_marginLeft="100dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/fb"
+        android:layout_marginTop="730dp"
+        android:layout_marginLeft="180dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/tw"
+        android:layout_marginTop="730dp"
+        android:layout_marginLeft="260dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.HomeFragment"
+    android:background="#D5E9EA">
+
+    <TextView
+        android:layout_width="134dp"
+        android:layout_height="49dp"
+        android:text="Menu"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="28dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/profile"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="7dp"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="   Search"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:background="@drawable/vien" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/vector"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="330dp"
+        android:color="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        android:layout_marginTop="120dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageButton
+        android:id="@+id/categoryDog"
+        android:layout_width="69dp"
+        android:layout_height="69dp"
+        android:src="@drawable/iconp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/vien2"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="38dp"
+        android:text="Product"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="35dp"
+        android:textColor="#462B9C"/>
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/cat"
+        android:id="@+id/petcat"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="170dp"
+        android:background="@drawable/vien2"/>
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="38dp"
+        android:text="Pet"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="170dp"
+        android:textColor="#462B9C"/>
+
+    <ImageButton
+        android:layout_width="69dp"
+        android:layout_height="69dp"
+        android:src="@drawable/dog"
+        android:id="@+id/petdog"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/vien2"/>
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="38dp"
+        android:text="Dog"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="300dp"
+        android:textColor="#462B9C"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Promotions"
+        android:textSize="24dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginLeft="42dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginRight="42dp"
+        android:textSize="20dp"
+        android:background="@drawable/vien2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today's offen"
+        android:textSize="20dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="46dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Best selling in your area"
+        android:textSize="14dp"
+        android:textStyle="italic|bold"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="46dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dog's foods"
+        android:textSize="20dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="46dp"/>
+
+    <ImageView
+        android:layout_width="115dp"
+        android:layout_height="84dp"
+        android:src="@drawable/logopet"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="240dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nearby"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="42dp"
+        android:textSize="24dp"/>
+
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="213dp"
+        android:background="@drawable/vien"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="42dp"/>
+
+    <ImageView
+        android:layout_width="115dp"
+        android:layout_height="84dp"
+        android:src="@drawable/logo8"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="65dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cat food"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="65dp"
+        android:textSize="18dp"/>
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="25dp"
+        android:src="@drawable/money"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="65dp"/>
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="25dp"
+        android:src="@drawable/add"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="130dp"/>
+
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="213dp"
+        android:background="@drawable/vien"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="210dp"/>
+
+    <ImageView
+        android:layout_width="115dp"
+        android:layout_height="84dp"
+        android:src="@drawable/logo8"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="234dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dog food"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="234dp"
+        android:textSize="18dp"/>
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="25dp"
+        android:src="@drawable/money"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="234dp"/>
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="25dp"
+        android:src="@drawable/add"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="300dp"/>
+
+
+
+</RelativeLayout>
+

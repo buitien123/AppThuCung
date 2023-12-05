@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Product"
+    android:padding="8dp"
+    android:background="#DDEBEC">
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/Bt_rcvBack"
+        android:background="@drawable/back3"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Danh mục sản phẩm"
+        android:textSize="30dp"
+        android:layout_marginStart="43dp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/rcv" />
+
+
+</RelativeLayout>

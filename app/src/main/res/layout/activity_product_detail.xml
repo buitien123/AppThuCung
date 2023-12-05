@@ -1,0 +1,91 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/ProductBack"
+        android:background="@drawable/back3"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/detail_imgProduct"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/detail_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/detail_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Description"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/detail_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Type"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/detail_discount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Discount"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/detail_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Price"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBarProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:numStars="5"
+        android:rating="4"
+        android:stepSize="0.5" />
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:id="@+id/addproduct"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="10dp"
+        android:text="Add To Cart"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
